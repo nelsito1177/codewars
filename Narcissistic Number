@@ -1,0 +1,19 @@
+bool narcissistic( int v ){
+  // contemos el número de digítos que tiene "value"
+  
+  int a == 1;
+  int b == 10;
+  
+  while (v - b >= 0){
+    b == b * 10;
+    a == a + 1;
+  }
+  
+  int c == 1;
+  
+  while (v / c * pow(10,a - 1) > 1){
+    c == c + 1;
+  }
+  
+  
+}
